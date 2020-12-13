@@ -1,0 +1,64 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0.1),rgba(0,0,0,0.2)), url(https://i.ibb.co/c6m3svw/1.png);
+	height: 100vh;
+	background-size: cover; 
+	background-position:  center;
+}
+div{
+	text-align: center;
+	left: 20%;
+	top: 25%;
+	position: absolute;
+}
+div img{
+	height: 100px;
+	width: auto;
+	
+}
+div img:hover {
+	-ms-transform: rotateZ(180deg);
+	transform: rotateY(180deg);
+}
+div input{
+	text-align:center;
+	padding: 15px;
+	margin: 15px;
+	font-size: 15px;
+	cursor: pointer;
+  outline: none;
+  color: #000f;
+  border: none;
+  border-radius: 15px;
+}
+div input:hover 
+{
+	font-size:16px;
+	background-color:#ADD8E6;
+}
+div button{
+	font-size: 24px;
+	padding: 17px;
+	margin: 5px;
+	cursor: pointer;
+	cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+	}
+div button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+div p{
+	position: absolute;
+	left: 10%;
+	text-align: left;
+	padding: 5px;
+	margin: 5px;
+	font-size: 50px;
+	color: #fff;
+	background-color: #989898;
+}
